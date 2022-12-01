@@ -1,0 +1,96 @@
+/* Header */
+.todo-list {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 740px;
+  margin: auto;
+}
+
+.todo-list h1 {
+  margin: 20px 0 20px 0;
+}
+
+.new-task {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+#new-task-input {
+  padding: 10px;
+  margin: 0 0 0 40px;
+  width: 100%;
+  border-radius: 10px;
+  border-width: 1px;
+}
+
+#new-task-btn {
+  padding: 10px;
+  margin: 0 40px 0 20px;
+  background-color: #365f8d;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* ToDo List */
+#todo-list {
+  border: 1px solid #ddd;
+  padding: 0;
+  margin: 0;
+}
+
+.new-li {
+  border: 1px solid #ddd;
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  margin: 0 20px 0 0;
+  cursor: pointer;
+}
+
+.description {
+  margin-right: 20px;
+  width: 100%;
+  padding: 10px;
+}
+
+.strike {
+  margin-right: 20px;
+  width: 100%;
+  padding: 10px;
+  text-decoration: line-through;
+}
+
+.edit-description {
+  margin-right: 20px;
+  width: 100%;
+  padding: 10px;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: #ddd;
+}
+
+.edit-btn {
+  height: max-content;
+  padding: 10px;
+  margin-right: 20px;
+  background-color: #365f8d;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.trash-btn {
+  height: max-content;
+  padding: 10px;
+  background-color: #365f8d;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
